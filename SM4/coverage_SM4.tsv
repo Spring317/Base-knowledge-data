@@ -1,0 +1,30 @@
+source_code	decision	note
+ACMSM116	include	integrate using trig identities sin²x, cos²x, 1+tan²x=sec²x
+ACMSM117	include	substitution u = g(x) to integrate f(g(x))g'(x)
+ACMSM118	include	formula ∫(1/x)dx = ln|x| + c
+ACMSM119	include	inverse trig functions: arcsin, arccos, arctan
+ACMSM120	include	derivative of inverse trig functions
+ACMSM121	include	integrate ±1/√(a²−x²) and a/(a²+x²)
+ACMSM122	include	partial fractions for integration
+ACMSM123	include	integration by parts
+ACMSM124	include	area between curves
+ACMSM125	include	volumes of solids of revolution
+ACMSM126	exclude	technology-dependent (numerical integration using technology)
+ACMSM127	defer	exponential random variable — valid but mixes stats with calculus
+ACMSM128	include	implicit differentiation for gradients
+ACMSM129	include	related rates via chain rule dy/dx = (dy/du)(du/dx)
+ACMSM130	include	separable first-order differential equations
+ACMSM131	exclude	diagram-dependent (slope/direction fields)
+ACMSM132	defer	formulating DEs — subjective modelling, not a single exact procedure
+ACMSM133	defer	momentum/force concepts — mostly conceptual definitions
+ACMSM134	defer	constant/non-constant force — conceptual
+ACMSM135	exclude	concurrent forces — diagram-dependent
+ACMSM136	include	motion in a straight line, SHM, acceleration expressions
+ACMSM137	defer	sample mean as random variable — conceptual definition
+ACMSM138	exclude	simulation-dependent
+ACMSM139	exclude	simulation-dependent
+ACMSM140	defer	conceptual (understanding interval estimates)
+ACMSM141	include	confidence interval formula for population mean
+ACMSM142	exclude	simulation-dependent
+ACMSM143	include	use x̄ and s to estimate μ and σ, approximate intervals
+ACMSM144	exclude	data collection and reporting — no exact answer

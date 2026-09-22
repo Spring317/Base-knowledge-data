@@ -1,0 +1,21 @@
+{"id":"spec.integ.sin_sq","unit":"SM4","statement":"∫_a^b sin²(x) dx = (b−a)/2 − (sin 2b − sin 2a)/4.","source":"ACMSM116"}
+{"id":"spec.integ.cos_sq","unit":"SM4","statement":"∫_a^b cos²(x) dx = (b−a)/2 + (sin 2b − sin 2a)/4.","source":"ACMSM116"}
+{"id":"spec.integ.sec_sq","unit":"SM4","statement":"∫_a^b sec²(x) dx = tan(b) − tan(a).","source":"ACMSM116"}
+{"id":"spec.integ.power","unit":"SM4","statement":"∫_a^b x^n dx = (b^(n+1) − a^(n+1))/(n+1) for n ≠ −1.","source":"ACMSM117"}
+{"id":"spec.integ.reciprocal","unit":"SM4","statement":"∫_a^b (1/x) dx = ln(b) − ln(a) for a, b > 0.","source":"ACMSM118"}
+{"id":"spec.integ.exp_linear","unit":"SM4","statement":"∫_a^b e^(kx) dx = (e^(kb) − e^(ka))/k for k ≠ 0.","source":"ACMSM117"}
+{"id":"spec.trig.arcsin_eval","unit":"SM4","statement":"arcsin(x) is the unique θ ∈ [−π/2, π/2] with sin θ = x, for x ∈ [−1, 1].","source":"ACMSM119"}
+{"id":"spec.trig.arccos_eval","unit":"SM4","statement":"arccos(x) is the unique θ ∈ [0, π] with cos θ = x, for x ∈ [−1, 1].","source":"ACMSM119"}
+{"id":"spec.trig.arctan_eval","unit":"SM4","statement":"arctan(x) is the unique θ ∈ (−π/2, π/2) with tan θ = x.","source":"ACMSM119"}
+{"id":"spec.deriv.arcsin_val","unit":"SM4","statement":"d/dx[arcsin(x)] = 1/√(1 − x²) for |x| < 1.","source":"ACMSM120"}
+{"id":"spec.deriv.arctan_val","unit":"SM4","statement":"d/dx[arctan(x)] = 1/(1 + x²).","source":"ACMSM120"}
+{"id":"spec.integ.arcsin_form","unit":"SM4","statement":"∫_a^b 1/√(c² − x²) dx = arcsin(b/c) − arcsin(a/c) for |a|, |b| < c.","source":"ACMSM121"}
+{"id":"spec.integ.arctan_form","unit":"SM4","statement":"∫_a^b c/(c² + x²) dx = arctan(b/c) − arctan(a/c).","source":"ACMSM121"}
+{"id":"spec.integ.partial_frac","unit":"SM4","statement":"A/((x−p)(x−q)) = [A/(p−q)]·1/(x−p) + [A/(q−p)]·1/(x−q) for p ≠ q.","source":"ACMSM122"}
+{"id":"spec.integ.by_parts_step","unit":"SM4","statement":"∫_a^b u dv = u(b)v(b) − u(a)v(a) − ∫_a^b v du.","source":"ACMSM123"}
+{"id":"spec.integ.volume_disk","unit":"SM4","statement":"The volume obtained by rotating y = f(x) about the x-axis from a to b is V = π ∫_a^b [f(x)]² dx.","source":"ACMSM125"}
+{"id":"spec.deriv.implicit_grad","unit":"SM4","statement":"For a curve F(x,y) = 0, dy/dx = −(∂F/∂x)/(∂F/∂y) where ∂F/∂y ≠ 0.","source":"ACMSM128"}
+{"id":"spec.deriv.related_rate","unit":"SM4","statement":"If y depends on x and x depends on t, then dy/dt = (dy/dx)·(dx/dt).","source":"ACMSM129"}
+{"id":"spec.diffeq.solve_direct","unit":"SM4","statement":"The solution to dy/dx = f(x) with y(x₀) = y₀ satisfies y(x₁) = y₀ + ∫_{x₀}^{x₁} f(x) dx.","source":"ACMSM130"}
+{"id":"spec.dynamics.shm_eval","unit":"SM4","statement":"In SHM, displacement x(t) = A cos(ωt + φ), with amplitude A, angular frequency ω, and phase φ.","source":"ACMSM136"}
+{"id":"spec.stats.margin_of_error","unit":"SM4","statement":"The margin of error for a confidence interval for μ is E = z·s/√n.","source":"ACMSM141"}
